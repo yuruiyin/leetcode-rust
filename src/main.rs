@@ -1,11 +1,11 @@
 mod template;
 
-fn addTwo(a: u64, b: u64) -> u64 {
+fn add_two(a: u64, b: u64) -> u64 {
     return a + b;
 }
 
 fn main() {
-    println!("{}", addTwo(5, 4));
+    println!("{}", add_two(5, 4));
     let name = "hello";
     println!("{}", name);
     println!("Hello, world!");

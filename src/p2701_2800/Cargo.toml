@@ -1,6 +1,5 @@
-workspace = { members = ["src/p2701_2800", "src/p3001_3100"] }
 [package]
-name = "leetcode-rust"
+name = "p2701_2800"
 version = "0.1.0"
 edition = "2021"
 
