@@ -1,6 +1,6 @@
 impl Solution {
     pub fn maximum_beauty(nums: Vec<i32>, k: i32) -> i32 {
-        let mut nums = nums.clone();
+        let mut nums = nums;
         nums.sort_unstable();
         let n = nums.len();
         let mut l = 0;
